@@ -26,3 +26,9 @@
 # 6
 # 拉
 # git pull origin master
+
+推新内容到git云端
+# git status
+# git add .
+# git commit -m  '备注内容'
+# git push origin master（分支名）
