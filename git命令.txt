@@ -1,45 +1,46 @@
 # GIT
 
 # 1
-# Ò»¸öÄ¿Â¼£¬Ö»ĞèÒ»´Î
+# ä¸€ä¸ªç›®å½•ï¼Œåªéœ€ä¸€æ¬¡
 # git init
 
 # 2
-# À­
-# git pull ´úÂë¿âµØÖ·
+# æ‹‰
+# git pull ä»£ç åº“åœ°å€
 
 # 3
-# ²é¿´ÊÇ·ñÓĞ´úÂë±ä¸üµÈ
+# æŸ¥çœ‹æ˜¯å¦æœ‰ä»£ç å˜æ›´ç­‰
 # git status
-# ×¢Òâ£ºÈ·¶¨Ã»ÓĞÎÄ¼ş±ä¸ü£¬²Å¿ÉÒÔ git pull
+# æ³¨æ„ï¼šç¡®å®šæ²¡æœ‰æ–‡ä»¶å˜æ›´ï¼Œæ‰å¯ä»¥ git pull
 
 # 4
-# ÍòÒ»ÓĞ±ä¸ü£¬¿ÉÒÔÊÖ¶¯£¬µ«ÊÇ²»ÖÇÄÜ
+# ä¸‡ä¸€æœ‰å˜æ›´ï¼Œå¯ä»¥æ‰‹åŠ¨ï¼Œä½†æ˜¯ä¸æ™ºèƒ½
 # git checkout .
 
 # 5
-# °ó¶¨²Ö¿âµØÖ·
+# ç»‘å®šä»“åº“åœ°å€
 # git remote add origin https://github.com/whisnos/mypy.git
 
 # 6
-# À­
+# æ‹‰
 # git pull origin master
 
-ÍÆĞÂÄÚÈİµ½gitÔÆ¶Ë
+æ¨æ–°å†…å®¹åˆ°gitäº‘ç«¯
 # git status
 # git add .
-# git commit -m  '±¸×¢ÄÚÈİ'
-# git push origin master£¨·ÖÖ§Ãû£©
+# git status
+# git commit -m  'å¤‡æ³¨å†…å®¹'
+# git push origin masterï¼ˆåˆ†æ”¯åï¼‰
 
 
- git ÉèÖÃºÍÈ¡Ïû´úÀí
-# ÉèÖÃss
+ git è®¾ç½®å’Œå–æ¶ˆä»£ç†
+# è®¾ç½®ss
 git config --global http.proxy 'socks5://127.0.0.1:1080'
 git config --global https.proxy 'socks5://127.0.0.1:1080'
-# ÉèÖÃ´úÀí
+# è®¾ç½®ä»£ç†
 git config --global https.proxy http://127.0.0.1:1080
 git config --global https.proxy https://127.0.0.1:1080
-# È¡Ïû´úÀí
+# å–æ¶ˆä»£ç†
 git config --global --unset http.proxy
 git config --global --unset https.proxy
 
